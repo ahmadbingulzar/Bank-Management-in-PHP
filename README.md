@@ -36,6 +36,6 @@ Login of both user and admin. <br>
     User can view his transaction history.
   </li>
   <li>
-    The project also includes erd diagram of its database.
+    The project also includes erd diagram of its database and don't forget to add credentials of database and mail.php
   </li>
   </ul>
