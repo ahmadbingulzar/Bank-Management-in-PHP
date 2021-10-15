@@ -1,5 +1,5 @@
 # Bank-Management-in-PHP
-<h1>This is the bank management project in php with Mysql</h1> 
+<h1>This is the bank management project in php with Mysql and Bootstrap 5</h1> 
 <h2>The project have the following Functionalities</h2> <br>
 <ul>
  <li>
@@ -23,6 +23,9 @@ Login of both user and admin. <br>
   <li>
     Admin can view all accounts.
   </li>
+ <li>
+  Admin can delete account of user.
+ </li>
   <li>
     User can make transaction.
   </li>
