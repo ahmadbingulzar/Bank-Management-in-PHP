@@ -1,0 +1,19 @@
+<IfModule mod_env.c>
+    SetEnv base_url  http://localhost/crud/   
+    
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+
+        RewriteEngine On
+        RewriteBase /
+       
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{QUERY_STRING} !^Actions [NC]
+        RewriteRule ^(.*)$ /crud/views/pages/$1 [L]
+
+
+</IfModule>
+

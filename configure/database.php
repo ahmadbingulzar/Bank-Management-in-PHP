@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "NewPassword";
-$dbname = "mango";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 // creating connection to the database
 $conn =  mysqli_connect($servername, $username, $password, $dbname);
 
