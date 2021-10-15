@@ -27,7 +27,7 @@ Login of both user and admin. <br>
     User can make transaction.
   </li>
   <li>
-     User can add beneficary accounts.
+     User can add beneficiary accounts.
   </li>
   <li>
     User can view his transaction history.
